@@ -21,15 +21,15 @@ URL_API_TELEGRAM = 'https://api.telegram.org/bot'
 
 logging.basicConfig(
     level=logging.DEBUG,
-    format='%(asctime)s; %(levelname)s; %(message)s',
     filename='homework.log',
+    filemode='a',
+    format='%(asctime)s, %(levelname)s, %(name)s, %(message)s',
 )
 logger = logging.getLogger('__name__')
-
 handler = RotatingFileHandler(
     filename='homework.log',
     maxBytes=50000000,
-    backupCount=1
+    backupCount=5
 )
 logger.addHandler(handler)
 
@@ -39,12 +39,13 @@ GOOD_VERDICT = 'Ревьюеру всё понравилось, можно пр�
 REVIEW_IN_PROGRESS = 'Задание находится на проверке'
 ANSWER = 'У вас проверили работу "{homework_name}"!\n\n{verdict}'
 KEY_ERROR = 'По ключам не получилось получить данные'
+PARSE_PROBLEM = 'Проблемы с ключами'
 NONAME_STATUS = 'Неизвестный статус работы'
 
 
 def parse_homework_status(homework):
     if homework.get('homework_name') is None or homework.get('status') is None:
-        pass
+        return PARSE_PROBLEM
     homework_name = homework['homework_name']
     homework_status = homework['status']
     if homework_status == 'rejected':
@@ -67,6 +68,7 @@ CODE_RESPONSE_PRAKTIKUM = (
     'Код ответа с сайта Практикума: '
     '{response_status_code}'
 )
+ERROR_WTH_SERVER = 'Ошибка получения ответа от сервера'
 
 
 def get_homework_statuses(current_timestamp):
@@ -77,20 +79,15 @@ def get_homework_statuses(current_timestamp):
     HEADERS = {
         'Authorization': f'OAuth {PRAKTIKUM_TOKEN}'
     }
-    homework_statuses = requests.get(
+    try:
+        homework_statuses = requests.get(
             URL_API_PRAKTIKUM,
             params=PARAMS,
             headers=HEADERS
         )
-    try:
-        homework_statuses.raise_for_status()
-    except requests.exceptions.HTTPError:
-        logging.error(
-            CODE_RESPONSE_PRAKTIKUM.format(
-                response_status_code=homework_statuses.status_code
-            )
-        )
-    return homework_statuses.json()
+        return homework_statuses.json() 
+    except (requests.exceptions.RequestException, ValueError):
+        logging.error(ERROR_WTH_SERVER)
 
 
 def send_message(message, bot_client):
