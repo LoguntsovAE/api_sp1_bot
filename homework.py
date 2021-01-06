@@ -14,20 +14,17 @@ PRAKTIKUM_TOKEN = os.getenv("PRAKTIKUM_TOKEN")
 TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
 CHAT_ID = os.getenv('TELEGRAM_CHAT_ID')
 
+BOT_CREATE_SUCCES = 'Бот был успешно создан'
+
+
 URL_API_PRAKTIKUM = (
     'https://praktikum.yandex.ru/api/user_api/homework_statuses/'
 )
 URL_API_TELEGRAM = 'https://api.telegram.org/bot'
 
-logging.basicConfig(
-    level=logging.DEBUG,
-    filename='homework.log',
-    filemode='a',
-    format='%(asctime)s, %(levelname)s, %(name)s, %(message)s',
-)
 logger = logging.getLogger('__name__')
 handler = RotatingFileHandler(
-    filename='homework.log',
+    filename=__file__ + '.log',
     maxBytes=50000000,
     backupCount=5
 )
@@ -37,38 +34,36 @@ logger.addHandler(handler)
 BAD_VERDICT = 'К сожалению в работе нашлись ошибки.'
 GOOD_VERDICT = 'Ревьюеру всё понравилось, можно приступать к следующему уроку.'
 REVIEW_IN_PROGRESS = 'Задание находится на проверке'
-ANSWER = 'У вас проверили работу "{homework_name}"!\n\n{verdict}'
+ANSWER = 'У вас проверили работу "{name}"!\n\n{verdict}'
 KEY_ERROR = 'По ключам не получилось получить данные'
 PARSE_PROBLEM = 'Проблемы с ключами'
 NONAME_STATUS = 'Неизвестный статус работы'
 
+statuses = {
+    'rejected': BAD_VERDICT,
+    'approved': GOOD_VERDICT,
+    'reviewing': REVIEW_IN_PROGRESS
+}
+
 
 def parse_homework_status(homework):
-    if homework.get('homework_name') is None or homework.get('status') is None:
-        return PARSE_PROBLEM
-    homework_name = homework['homework_name']
     homework_status = homework['status']
-    if homework_status == 'rejected':
-        verdict = BAD_VERDICT
-    elif homework_status == 'approved':
-        verdict = GOOD_VERDICT
-    elif homework_status == 'reviewing':
-        verdict = REVIEW_IN_PROGRESS
-    else:
-        return NONAME_STATUS
-    result = ANSWER.format(
-        homework_name=homework_name,
-        verdict=verdict,
-    )
-    return result
+    for status, verdict in statuses.items():
+        if homework_status == status:
+            return ANSWER.format(
+                name=homework['homework_name'],
+                verdict=verdict,
+            )
+    raise KeyError('Ниодин из возможных статусов не обнаружен')
 
 
-CODE_RESPONSE_PRAKTIKUM = (
-    'Отправлен запрос на сайт Практикума.'
-    'Код ответа с сайта Практикума: '
-    '{response_status_code}'
+CONNECTON_ERROR = (
+    'Отправлен запрос на {URL_API_PRAKTIKUM}\n'
+    'с текущим временем {current_timestamp}\n'
+    'от имени(токен): {PRAKTIKUM_TOKEN}\n'
+    'получена ошибка: {error}\n'
 )
-ERROR_WTH_SERVER = 'Ошибка получения ответа от сервера'
+ERROR_IN_RESPONSE = 'Запрос домашней работы провалился'
 
 
 def get_homework_statuses(current_timestamp):
@@ -79,35 +74,55 @@ def get_homework_statuses(current_timestamp):
     HEADERS = {
         'Authorization': f'OAuth {PRAKTIKUM_TOKEN}'
     }
+    ARGUMENTS = {
+        'URL_API_PRAKTIKUM': URL_API_PRAKTIKUM,
+        'current_timestamp': PARAMS['from_date'],
+        'PRAKTIKUM_TOKEN': PRAKTIKUM_TOKEN,
+    }
     try:
-        homework_statuses = requests.get(
+        response = requests.get(
             URL_API_PRAKTIKUM,
             params=PARAMS,
             headers=HEADERS
         )
-        return homework_statuses.json() 
-    except (requests.exceptions.RequestException, ValueError):
-        logging.error(ERROR_WTH_SERVER)
+    except requests.exceptions.RequestException as error:
+        raise ConnectionError(CONNECTON_ERROR.format(
+            ARGUMENTS,
+            error=error.__doc__
+        ))
+
+    homeworks = response.json()
+    for error_key in ['error', 'code']:
+        if error_key in homeworks.keys():
+            raise ValueError(ERROR_IN_RESPONSE.format(
+                ARGUMENTS,
+                error=homeworks[error_key]
+            )
+            )
+    return homeworks
+
+
+"""
+Внесение изменений в функцию send_message не позволяет пройти pytest
+(бот-клиент как необязательный параметр)
+"""
 
 
 def send_message(message, bot_client):
     return bot_client.send_message(chat_id=CHAT_ID, text=message)
 
 
-BOT_CREATE_SUCCES = 'Бот был успешно создан'
-BOT_CREATE_ERROR = 'Чё то ботик не создался'
 MAIN_ERROR_TEXT = 'Бот столкнулся с ошибкой: {error_text}'
+MAIN_PROCCESS_TEXT = 'Отправлен запрос для проверки домашки'
 
 
 def main():
-    try:
-        bot_client = telegram.Bot(token=TELEGRAM_TOKEN)
-        logging.info(BOT_CREATE_SUCCES)
-    except:
-        logging.error(BOT_CREATE_ERROR)
+    bot_client = telegram.Bot(token=TELEGRAM_TOKEN)
+    logging.info(BOT_CREATE_SUCCES)
     current_timestamp = int(time.time())
     while True:
         try:
+            logging.info(MAIN_PROCCESS_TEXT)
             new_homework = get_homework_statuses(current_timestamp)
             if new_homework.get('homeworks'):
                 send_message(
@@ -120,10 +135,16 @@ def main():
                 current_timestamp
             )
             time.sleep(1200)
-        except Exception as e:
-            logging.error(MAIN_ERROR_TEXT.format(error_text=e))
+        except Exception as error:
+            logging.error(MAIN_ERROR_TEXT.format(error_text=error))
             time.sleep(300)
 
 
 if __name__ == '__main__':
+    logging.basicConfig(
+        level=logging.DEBUG,
+        filename=__file__ + '.log',
+        filemode='a',
+        format='%(asctime)s, %(levelname)s, %(name)s, %(message)s',
+    )
     main()
