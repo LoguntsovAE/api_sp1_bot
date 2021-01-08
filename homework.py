@@ -31,84 +31,66 @@ handler = RotatingFileHandler(
 logger.addHandler(handler)
 
 
-BAD_VERDICT = 'К сожалению в работе нашлись ошибки.'
-GOOD_VERDICT = 'Ревьюеру всё понравилось, можно приступать к следующему уроку.'
-REVIEW_IN_PROGRESS = 'Задание находится на проверке'
 ANSWER = 'У вас проверили работу "{name}"!\n\n{verdict}'
-KEY_ERROR = 'По ключам не получилось получить данные'
-PARSE_PROBLEM = 'Проблемы с ключами'
-NONAME_STATUS = 'Неизвестный статус работы'
-
-statuses = {
-    'rejected': BAD_VERDICT,
-    'approved': GOOD_VERDICT,
-    'reviewing': REVIEW_IN_PROGRESS
+STATUSES = {
+    'rejected': 'К сожалению в работе нашлись ошибки.',
+    'approved': ('Ревьюеру всё понравилось, '
+                 'можно приступать к следующему уроку.'
+                 ),
+    'reviewing': 'Задание находится на проверке.'
 }
+STATUS_ERROR_TEXT = (
+    'Ни один из возможных статусов домашки не обнаружен! '
+    'Полученный статус: "{status}"'
+)
 
 
 def parse_homework_status(homework):
     homework_status = homework['status']
-    for status, verdict in statuses.items():
-        if homework_status == status:
-            return ANSWER.format(
+    if homework_status not in STATUSES.keys():
+        raise ValueError(STATUS_ERROR_TEXT.format(status=homework_status))
+    return ANSWER.format(
                 name=homework['homework_name'],
-                verdict=verdict,
+                verdict=STATUSES[homework_status],
             )
-    raise KeyError('Ниодин из возможных статусов не обнаружен')
 
 
-CONNECTON_ERROR = (
-    'Отправлен запрос на {URL_API_PRAKTIKUM}\n'
-    'с текущим временем {current_timestamp}\n'
-    'от имени(токен): {PRAKTIKUM_TOKEN}\n'
-    'получена ошибка: {error}\n'
-)
-ERROR_IN_RESPONSE = 'Запрос домашней работы провалился'
+CONNECTION_ERROR = 'Получена ошибка соединения: {error}'
+HEADERS = {
+        'Authorization': f'OAuth {PRAKTIKUM_TOKEN}'
+    }
+ERROR_IN_RESPONSE = 'Запрос домашней работы провалился из-за ошибки: {error}'
 
 
 def get_homework_statuses(current_timestamp):
     current_timestamp = current_timestamp or int(time.time())
-    PARAMS = {
-        'from_date': current_timestamp
-    }
-    HEADERS = {
-        'Authorization': f'OAuth {PRAKTIKUM_TOKEN}'
-    }
-    ARGUMENTS = {
-        'URL_API_PRAKTIKUM': URL_API_PRAKTIKUM,
-        'current_timestamp': PARAMS['from_date'],
-        'PRAKTIKUM_TOKEN': PRAKTIKUM_TOKEN,
-    }
+    ARGUMENTS = dict(
+        url=URL_API_PRAKTIKUM,
+        params={'from_date': current_timestamp},
+        headers=HEADERS,
+    )
     try:
-        response = requests.get(
-            URL_API_PRAKTIKUM,
-            params=PARAMS,
-            headers=HEADERS
-        )
+        response = requests.get(**ARGUMENTS)
     except requests.exceptions.RequestException as error:
-        raise ConnectionError(CONNECTON_ERROR.format(
-            ARGUMENTS,
-            error=error.__doc__
+        raise ConnectionError(CONNECTION_ERROR.format(
+            **ARGUMENTS,
+            error=str(error)
         ))
-
     homeworks = response.json()
     for error_key in ['error', 'code']:
         if error_key in homeworks.keys():
-            raise ValueError(ERROR_IN_RESPONSE.format(
-                ARGUMENTS,
+            raise KeyError(ERROR_IN_RESPONSE.format(
                 error=homeworks[error_key]
             )
             )
     return homeworks
 
 
-"""
-Внесение изменений в функцию send_message не позволяет пройти pytest
-(бот-клиент как необязательный параметр)
-"""
+BOT_SEND_MESSAGE = 'Ботом отправленно сообщение о статусе домашки'
 
 
 def send_message(message, bot_client):
+    logging.info(BOT_SEND_MESSAGE)
     return bot_client.send_message(chat_id=CHAT_ID, text=message)
 
 
@@ -118,7 +100,7 @@ MAIN_PROCCESS_TEXT = 'Отправлен запрос для проверки д
 
 def main():
     bot_client = telegram.Bot(token=TELEGRAM_TOKEN)
-    logging.info(BOT_CREATE_SUCCES)
+    logging.debug(BOT_CREATE_SUCCES)
     current_timestamp = int(time.time())
     while True:
         try:
@@ -136,7 +118,9 @@ def main():
             )
             time.sleep(1200)
         except Exception as error:
-            logging.error(MAIN_ERROR_TEXT.format(error_text=error))
+            error_message = MAIN_ERROR_TEXT.format(error_text=error)
+            logging.error(error_message)
+            send_message(error_message, bot_client)
             time.sleep(300)
 
 
