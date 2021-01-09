@@ -1,776 +1,107 @@
-2021-01-05 17:56:40,077, INFO, root, Бот был успешно создан
-2021-01-05 17:56:40,077, INFO, root, Отправляется запрос для проверки домашки
-2021-01-05 17:57:49,208, INFO, root, Бот был успешно создан
-2021-01-05 17:57:49,208, INFO, root, Отправлен запрос для проверки домашки
-2021-01-05 17:57:50,450, INFO, root, Отправлен запрос для проверки домашки
-2021-01-05 17:57:51,701, INFO, root, Отправлен запрос для проверки домашки
-2021-01-05 17:57:53,521, INFO, root, Отправлен запрос для проверки домашки
-2021-01-05 17:57:54,751, INFO, root, Отправлен запрос для проверки домашки
-2021-01-05 17:57:55,993, INFO, root, Отправлен запрос для проверки домашки
-2021-01-05 18:29:27,069, INFO, root, Бот был успешно создан
-2021-01-05 18:29:27,070, INFO, root, Отправлен запрос для проверки домашки
-2021-01-05 18:29:27,377, ERROR, root, Бот столкнулся с ошибкой: 'code'
-2021-01-05 18:29:58,543, INFO, root, Бот был успешно создан
-2021-01-05 18:29:58,543, INFO, root, Отправлен запрос для проверки домашки
-2021-01-05 18:29:58,850, ERROR, root, Бот столкнулся с ошибкой: 'code'
-2021-01-05 18:30:43,366, INFO, root, Бот был успешно создан
-2021-01-05 18:30:43,366, INFO, root, Отправлен запрос для проверки домашки
-2021-01-05 18:30:43,684, DEBUG, telegram.bot, Entering: send_message
-2021-01-05 18:30:43,684, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-05 18:30:45,350, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 591
-2021-01-05 18:30:45,351, DEBUG, telegram.bot, {'message_id': 104, 'date': 1609853445, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'У вас проверили работу "LoguntsovAE__api_sp1_bot.zip"!\n\nК сожалению в работе нашлись ошибки.', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-05 18:30:45,351, DEBUG, telegram.bot, Exiting: send_message
-2021-01-05 18:31:23,533, INFO, root, Бот был успешно создан
-2021-01-05 18:31:23,533, INFO, root, Отправлен запрос для проверки домашки
-2021-01-05 18:31:23,792, ERROR, root, Бот столкнулся с ошибкой: 'code'
-2021-01-05 18:31:55,885, INFO, root, Бот был успешно создан
-2021-01-05 18:31:55,885, INFO, root, Отправлен запрос для проверки домашки
-2021-01-05 18:31:56,189, ERROR, root, Бот столкнулся с ошибкой: Отправлен запрос на https://praktikum.yandex.ru/api/user_api/homework_statuses/с текущим временем 0от имени(токен): AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEAполучена ошибка: asd
-2021-01-05 18:32:29,348, INFO, root, Бот был успешно создан
-2021-01-05 18:32:29,348, INFO, root, Отправлен запрос для проверки домашки
-2021-01-05 18:32:29,688, ERROR, root, Бот столкнулся с ошибкой: Отправлен запрос на https://praktikum.yandex.ru/api/user_api/homework_statuses/
-с текущим временем 0
-от имени(токен): AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA
-получена ошибка: asd
+2021-01-09 15:49:20,659, DEBUG, root, Бот был успешно создан
+2021-01-09 15:49:20,660, INFO, root, Отправлен запрос для проверки домашки
+2021-01-09 15:50:09,205, DEBUG, root, Бот был успешно создан
+2021-01-09 15:50:09,206, INFO, root, Отправлен запрос для проверки домашки
+2021-01-09 15:50:09,479, DEBUG, telegram.bot, Entering: send_message
+2021-01-09 15:50:09,479, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-01-09 15:50:09,769, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 400 73
+2021-01-09 15:50:09,770, ERROR, root, Бот не смог отправить сообщение из-за ошибки: Chat not found
+2021-01-09 15:50:21,823, DEBUG, root, Бот был успешно создан
+2021-01-09 15:50:21,823, INFO, root, Отправлен запрос для проверки домашки
+2021-01-09 15:50:22,042, ERROR, root, Бот столкнулся с ошибкой: "Запрос домашней работы провалился из-за ошибки: {'error': 'Wrong from_date format'}"
+2021-01-09 15:50:22,042, DEBUG, telegram.bot, Entering: send_message
+2021-01-09 15:50:22,043, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-01-09 15:50:22,383, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 400 73
+2021-01-09 15:50:22,383, ERROR, root, Бот не смог отправить сообщение из-за ошибки: Chat not found
+2021-01-09 15:51:00,185, DEBUG, root, Бот был успешно создан
+2021-01-09 15:51:00,185, INFO, root, Отправлен запрос для проверки домашки
+2021-01-09 15:51:00,413, ERROR, root, Бот столкнулся с ошибкой: "Запрос домашней работы провалился из-за ошибки: {'error': 'Wrong from_date format'}"
+2021-01-09 15:51:00,414, DEBUG, telegram.bot, Entering: send_message
+2021-01-09 15:51:00,414, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-01-09 15:51:00,712, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 668
+2021-01-09 15:51:00,712, DEBUG, telegram.bot, {'message_id': 165, 'date': 1610189460, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'Бот столкнулся с ошибкой: "Запрос домашней работы провалился из-за ошибки: {\'error\': \'Wrong from_date format\'}"', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
+2021-01-09 15:51:00,713, DEBUG, telegram.bot, Exiting: send_message
+2021-01-09 15:51:00,713, INFO, root, Ботом отправленно сообщение о статусе домашки. Текст сообщения:"Бот столкнулся с ошибкой: "Запрос домашней работы провалился из-за ошибки: {'error': 'Wrong from_date format'}""
+2021-01-09 15:51:46,910, DEBUG, root, Бот был успешно создан
+2021-01-09 15:51:46,911, INFO, root, Отправлен запрос для проверки домашки
+2021-01-09 15:52:01,636, DEBUG, root, Бот был успешно создан
+2021-01-09 15:52:01,636, INFO, root, Отправлен запрос для проверки домашки
+2021-01-09 15:52:01,879, ERROR, root, Бот столкнулся с ошибкой: "Запрос домашней работы провалился из-за ошибки: {'error': 'Wrong from_date format'}"
+2021-01-09 15:52:01,879, DEBUG, telegram.bot, Entering: send_message
+2021-01-09 15:52:01,880, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-01-09 15:52:02,268, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 668
+2021-01-09 15:52:02,269, DEBUG, telegram.bot, {'message_id': 166, 'date': 1610189522, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'Бот столкнулся с ошибкой: "Запрос домашней работы провалился из-за ошибки: {\'error\': \'Wrong from_date format\'}"', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
+2021-01-09 15:52:02,269, DEBUG, telegram.bot, Exiting: send_message
+2021-01-09 15:52:02,269, INFO, root, Ботом отправленно сообщение о статусе домашки. Текст сообщения:"Бот столкнулся с ошибкой: "Запрос домашней работы провалился из-за ошибки: {'error': 'Wrong from_date format'}""
+2021-01-09 15:53:02,899, DEBUG, root, Бот был успешно создан
+2021-01-09 15:53:02,899, INFO, root, Отправлен запрос для проверки домашки
+2021-01-09 15:53:03,143, ERROR, root, Бот столкнулся с ошибкой: 'params'
+2021-01-09 15:53:03,143, DEBUG, telegram.bot, Entering: send_message
+2021-01-09 15:53:03,144, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-01-09 15:53:03,450, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 389
+2021-01-09 15:53:03,451, DEBUG, telegram.bot, {'message_id': 167, 'date': 1610189583, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': "Бот столкнулся с ошибкой: 'params'", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
+2021-01-09 15:53:03,451, DEBUG, telegram.bot, Exiting: send_message
+2021-01-09 15:53:03,451, INFO, root, Ботом отправленно сообщение о статусе домашки. Текст сообщения:"Бот столкнулся с ошибкой: 'params'"
+2021-01-09 15:53:12,644, DEBUG, root, Бот был успешно создан
+2021-01-09 15:53:12,644, INFO, root, Отправлен запрос для проверки домашки
+2021-01-09 15:53:12,914, ERROR, root, Бот столкнулся с ошибкой: "По запросу: https://praktikum.yandex.ru/api/user_api/homework_statuses/, {'from_date': 'current_timestamp'}, {'Authorization': 'OAuth AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA'} получена ошибка: {'error': 'Wrong from_date format'}"
+2021-01-09 15:53:12,915, DEBUG, telegram.bot, Entering: send_message
+2021-01-09 15:53:12,915, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-01-09 15:53:13,207, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 780
+2021-01-09 15:53:13,207, DEBUG, telegram.bot, {'message_id': 168, 'date': 1610189593, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'Бот столкнулся с ошибкой: "По запросу: https://praktikum.yandex.ru/api/user_api/homework_statuses/, {\'from_date\': \'current_timestamp\'}, {\'Authorization\': \'OAuth AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA\'} получена ошибка: {\'error\': \'Wrong from_date format\'}"', 'entities': [{'type': 'url', 'offset': 39, 'length': 59}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
+2021-01-09 15:53:13,208, DEBUG, telegram.bot, Exiting: send_message
+2021-01-09 15:53:13,208, INFO, root, Ботом отправленно сообщение о статусе домашки. Текст сообщения:"Бот столкнулся с ошибкой: "По запросу: https://praktikum.yandex.ru/api/user_api/homework_statuses/, {'from_date': 'current_timestamp'}, {'Authorization': 'OAuth AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA'} получена ошибка: {'error': 'Wrong from_date format'}""
+2021-01-09 15:53:33,008, DEBUG, root, Бот был успешно создан
+2021-01-09 15:53:33,008, INFO, root, Отправлен запрос для проверки домашки
+2021-01-09 15:53:33,235, ERROR, root, Бот столкнулся с ошибкой: "По запросу: https://praktikum.yandex.ru/api/user_api/homework_statuses/, {'from_date': 'current_timestamp'}, {'Authorization': 'OAuth AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA'} получена ошибка: {'error': 'Wrong from_date format'}"
+2021-01-09 15:53:33,235, DEBUG, telegram.bot, Entering: send_message
+2021-01-09 15:53:33,235, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-01-09 15:53:33,552, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 780
+2021-01-09 15:53:33,553, DEBUG, telegram.bot, {'message_id': 169, 'date': 1610189613, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'Бот столкнулся с ошибкой: "По запросу: https://praktikum.yandex.ru/api/user_api/homework_statuses/, {\'from_date\': \'current_timestamp\'}, {\'Authorization\': \'OAuth AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA\'} получена ошибка: {\'error\': \'Wrong from_date format\'}"', 'entities': [{'type': 'url', 'offset': 39, 'length': 59}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
+2021-01-09 15:53:33,553, DEBUG, telegram.bot, Exiting: send_message
+2021-01-09 15:53:33,554, INFO, root, Ботом отправленно сообщение о статусе домашки. Текст сообщения:"Бот столкнулся с ошибкой: "По запросу: https://praktikum.yandex.ru/api/user_api/homework_statuses/, {'from_date': 'current_timestamp'}, {'Authorization': 'OAuth AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA'} получена ошибка: {'error': 'Wrong from_date format'}""
+2021-01-09 15:55:21,644, DEBUG, root, Бот был успешно создан
+2021-01-09 15:55:21,644, INFO, root, Отправлен запрос для проверки домашки
+2021-01-09 15:55:21,880, ERROR, root, Бот столкнулся с ошибкой: По запросу: https://praktikum.yandex.ru/api/user_api/homework_statuses/, {'from_date': 'current_timestamp'}, {'Authorization': 'OAuth AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA'} получена ошибка: {'error': 'Wrong from_date format'}
+2021-01-09 15:55:21,880, DEBUG, telegram.bot, Entering: send_message
+2021-01-09 15:55:21,881, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-01-09 15:55:22,181, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 776
+2021-01-09 15:55:22,181, DEBUG, telegram.bot, {'message_id': 170, 'date': 1610189722, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': "Бот столкнулся с ошибкой: По запросу: https://praktikum.yandex.ru/api/user_api/homework_statuses/, {'from_date': 'current_timestamp'}, {'Authorization': 'OAuth AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA'} получена ошибка: {'error': 'Wrong from_date format'}", 'entities': [{'type': 'url', 'offset': 38, 'length': 59}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
+2021-01-09 15:55:22,182, DEBUG, telegram.bot, Exiting: send_message
+2021-01-09 15:55:22,182, INFO, root, Ботом отправленно сообщение о статусе домашки. Текст сообщения:"Бот столкнулся с ошибкой: По запросу: https://praktikum.yandex.ru/api/user_api/homework_statuses/, {'from_date': 'current_timestamp'}, {'Authorization': 'OAuth AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA'} получена ошибка: {'error': 'Wrong from_date format'}"
+2021-01-09 15:55:34,662, DEBUG, root, Бот был успешно создан
+2021-01-09 15:55:34,662, INFO, root, Отправлен запрос для проверки домашки
+2021-01-09 15:59:37,248, DEBUG, root, Бот был успешно создан
+2021-01-09 15:59:37,249, INFO, root, Отправлен запрос для проверки домашки
+2021-01-09 16:01:20,363, DEBUG, root, Бот был успешно создан
+2021-01-09 16:01:20,364, INFO, root, Отправлен запрос для проверки домашки
+2021-01-09 16:01:31,001, DEBUG, root, Бот был успешно создан
+2021-01-09 16:01:31,001, INFO, root, Отправлен запрос для проверки домашки
+2021-01-09 16:01:31,382, DEBUG, telegram.bot, Entering: send_message
+2021-01-09 16:01:31,383, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-01-09 16:01:31,724, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 591
+2021-01-09 16:01:31,724, DEBUG, telegram.bot, {'message_id': 171, 'date': 1610190091, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'У вас проверили работу "LoguntsovAE__api_sp1_bot.zip"!\n\nК сожалению в работе нашлись ошибки.', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
+2021-01-09 16:01:31,725, DEBUG, telegram.bot, Exiting: send_message
+2021-01-09 16:01:31,725, INFO, root, Ботом отправленно сообщение о статусе домашки. Текст сообщения:"У вас проверили работу "LoguntsovAE__api_sp1_bot.zip"!
 
-2021-01-05 18:34:48,670, INFO, root, Бот был успешно создан
-2021-01-05 18:34:48,670, INFO, root, Отправлен запрос для проверки домашки
-2021-01-05 18:34:49,010, ERROR, root, Бот столкнулся с ошибкой: Отправлен запрос на https://praktikum.yandex.ru/api/user_api/homework_statuses/
-с текущим временем 0
-от имени(токен): AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA
-получена ошибка: [{'id': 73107, 'status': 'rejected', 'homework_name': 'LoguntsovAE__api_sp1_bot.zip', 'reviewer_comment': 'Очень хорошее начало. Замечательно, что уже все фразы вынесены из функций.\n\nДоделки:\n\n1. "Спрятать" настройки логера\n2. Упростить разбор статусов и поменять реакцию на неожиданный статус\n3. Исправить реакцию на сбой сети\n4. Добавить контроль за отказом сервера', 'date_updated': '2020-12-30T17:04:31Z', 'lesson_name': 'Деплой бота'}, {'id': 72141, 'status': 'approved', 'homework_name': 'LoguntsovAE__api_01_sms.zip', 'reviewer_comment': 'Изучите рекомендации и попробуйте применить их в следующем ДЗ.', 'date_updated': '2020-12-26T20:00:38Z', 'lesson_name': 'Отправка SMS-уведомлений'}, {'id': 68077, 'status': 'approved', 'homework_name': 'LoguntsovAE__hw05_final.zip', 'reviewer_comment': 'Принято', 'date_updated': '2020-12-18T06:35:04Z', 'lesson_name': 'Финальное задание'}, {'id': 66462, 'status': 'approved', 'homework_name': 'LoguntsovAE__hw04_tests.zip', 'reviewer_comment': 'Работа  сделана, написала пару "Можно лучше" на будущее + можешь все таки подумать над структурой тестовых данных (писала в предыдущий раз).\nА так задание сделано, форматирование хорошее.', 'date_updated': '2020-12-12T10:33:45Z', 'lesson_name': 'Покрытие тестами'}, {'id': 61693, 'status': 'approved', 'homework_name': 'LoguntsovAE__hw03_forms.zip', 'reviewer_comment': 'Принято.\n\nК следующему ДЗ вам нужно учесть замечание (проект продолжится) и  еще не забудьте удалить папку `.vscode` из репозитория.\n', 'date_updated': '2020-11-22T15:27:10Z', 'lesson_name': 'Новые записи'}, {'id': 45398, 'status': 'approved', 'homework_name': 'LoguntsovAE__hw_python_oop.zip', 'reviewer_comment': '', 'date_updated': '2020-09-22T09:11:13Z', 'lesson_name': 'Калькулятор денег и калорий'}, {'id': 48626, 'status': 'approved', 'homework_name': 'LoguntsovAE__hw02_community.zip', 'reviewer_comment': '', 'date_updated': '2020-10-06T08:20:20Z', 'lesson_name': 'Сообщества'}]
+К сожалению в работе нашлись ошибки."
+2021-01-09 16:01:48,936, DEBUG, root, Бот был успешно создан
+2021-01-09 16:01:48,937, INFO, root, Отправлен запрос для проверки домашки
+2021-01-09 16:01:49,218, DEBUG, telegram.bot, Entering: send_message
+2021-01-09 16:01:49,218, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-01-09 16:01:49,530, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 732
+2021-01-09 16:01:49,531, DEBUG, telegram.bot, {'message_id': 172, 'date': 1610190109, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'У вас проверили работу "LoguntsovAE__api_sp1_bot.zip"!\n\nРевьюеру всё понравилось, можно приступать к следующему уроку.', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
+2021-01-09 16:01:49,532, DEBUG, telegram.bot, Exiting: send_message
+2021-01-09 16:01:49,532, INFO, root, Ботом отправленно сообщение о статусе домашки. Текст сообщения:"У вас проверили работу "LoguntsovAE__api_sp1_bot.zip"!
 
-2021-01-05 18:35:06,573, INFO, root, Бот был успешно создан
-2021-01-05 18:35:06,574, INFO, root, Отправлен запрос для проверки домашки
-2021-01-05 18:35:06,881, ERROR, root, Бот столкнулся с ошибкой: 'error'
-2021-01-05 18:35:47,955, INFO, root, Бот был успешно создан
-2021-01-05 18:35:47,955, INFO, root, Отправлен запрос для проверки домашки
-2021-01-05 18:35:48,246, ERROR, root, Бот столкнулся с ошибкой: 'error'
-2021-01-06 17:20:28,474, INFO, root, Бот был успешно создан
-2021-01-06 17:20:28,474, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 17:20:31,980, ERROR, root, Бот столкнулся с ошибкой: 'Response' object has no attribute 'get'
-2021-01-06 17:22:14,107, INFO, root, Бот был успешно создан
-2021-01-06 17:22:14,107, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 17:22:14,446, ERROR, root, Бот столкнулся с ошибкой: 'Response' object has no attribute 'get'
-2021-01-06 17:23:11,677, INFO, root, Бот был успешно создан
-2021-01-06 17:23:11,677, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 17:23:11,984, ERROR, root, Бот столкнулся с ошибкой: 'Response' object has no attribute 'get'
-2021-01-06 17:25:25,118, INFO, root, Бот был успешно создан
-2021-01-06 17:25:25,119, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 17:25:25,416, ERROR, root, Бот столкнулся с ошибкой: 'Response' object has no attribute 'get'
-2021-01-06 17:26:19,607, INFO, root, Бот был успешно создан
-2021-01-06 17:26:19,607, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 17:26:19,906, ERROR, root, Бот столкнулся с ошибкой: 'Response' object has no attribute 'get'
-Traceback (most recent call last):
-  File "homework.py", line 129, in main
-    if new_homework.get('homeworks'):
-AttributeError: 'Response' object has no attribute 'get'
-2021-01-06 17:27:27,022, INFO, root, Бот был успешно создан
-2021-01-06 17:27:27,022, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 17:27:27,345, ERROR, root, Бот столкнулся с ошибкой: 'Response' object has no attribute 'get'
-Traceback (most recent call last):
-  File "homework.py", line 130, in main
-    if new_homework.get('homeworks'):
-AttributeError: 'Response' object has no attribute 'get'
-2021-01-06 17:27:44,577, INFO, root, Бот был успешно создан
-2021-01-06 17:27:44,577, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 17:27:44,957, ERROR, root, Бот столкнулся с ошибкой: 'Response' object is not subscriptable
-Traceback (most recent call last):
-  File "homework.py", line 129, in main
-    print(new_homework['homeworks'])
-TypeError: 'Response' object is not subscriptable
-2021-01-06 17:28:03,908, INFO, root, Бот был успешно создан
-2021-01-06 17:28:03,908, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 17:28:04,219, ERROR, root, Бот столкнулся с ошибкой: 'Response' object has no attribute 'get'
-Traceback (most recent call last):
-  File "homework.py", line 130, in main
-    if new_homework.get('homeworks'):
-AttributeError: 'Response' object has no attribute 'get'
-2021-01-06 17:28:40,575, INFO, root, Бот был успешно создан
-2021-01-06 17:28:40,575, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 17:28:40,883, ERROR, root, Бот столкнулся с ошибкой: 'dict' object has no attribute 'json'
-Traceback (most recent call last):
-  File "homework.py", line 129, in main
-    print(new_homework.json())
-AttributeError: 'dict' object has no attribute 'json'
-2021-01-06 17:28:52,779, INFO, root, Бот был успешно создан
-2021-01-06 17:28:52,779, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 17:28:53,081, DEBUG, telegram.bot, Entering: send_message
-2021-01-06 17:28:53,081, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-06 17:28:53,393, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 591
-2021-01-06 17:28:53,394, DEBUG, telegram.bot, {'message_id': 105, 'date': 1609936133, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'У вас проверили работу "LoguntsovAE__api_sp1_bot.zip"!\n\nК сожалению в работе нашлись ошибки.', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-06 17:28:53,394, DEBUG, telegram.bot, Exiting: send_message
-2021-01-06 17:32:04,045, INFO, root, Бот был успешно создан
-2021-01-06 17:32:04,045, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 17:32:21,714, INFO, root, Бот был успешно создан
-2021-01-06 17:32:21,715, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 17:32:22,001, ERROR, root, Бот столкнулся с ошибкой: Expecting value: line 1 column 1 (char 0)
-Traceback (most recent call last):
-  File "homework.py", line 130, in main
-    new_homework = get_homework_statuses(current_timestamp)
-  File "homework.py", line 108, in get_homework_statuses
-    return response.json()
-  File "/home/alexey/Dev/api_sp1_bot/venv/lib/python3.8/site-packages/requests/models.py", line 898, in json
-    return complexjson.loads(self.text, **kwargs)
-  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
-    return _default_decoder.decode(s)
-  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
-    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
-  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
-    raise JSONDecodeError("Expecting value", s, err.value) from None
-json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
-2021-01-06 17:37:54,733, INFO, root, Бот был успешно создан
-2021-01-06 17:37:54,734, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 17:37:55,083, DEBUG, telegram.bot, Entering: send_message
-2021-01-06 17:37:55,084, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-06 17:37:55,464, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 591
-2021-01-06 17:37:55,465, DEBUG, telegram.bot, {'message_id': 106, 'date': 1609936675, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'У вас проверили работу "LoguntsovAE__api_sp1_bot.zip"!\n\nК сожалению в работе нашлись ошибки.', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-06 17:37:55,465, DEBUG, telegram.bot, Exiting: send_message
-2021-01-06 17:38:52,845, INFO, root, Бот был успешно создан
-2021-01-06 17:38:52,845, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 17:38:53,140, ERROR, root, Бот столкнулся с ошибкой: Отправлен запрос на https://praktikum.yandex.ru/api/user_api/homework_statuses/
-с текущим временем 0
-от имени(токен): AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA
-получена ошибка: <class 'requests.exceptions.RequestException'>
+Ревьюеру всё понравилось, можно приступать к следующему уроку."
+2021-01-09 16:02:15,226, DEBUG, root, Бот был успешно создан
+2021-01-09 16:02:15,226, INFO, root, Отправлен запрос для проверки домашки
+2021-01-09 16:02:15,588, DEBUG, telegram.bot, Entering: send_message
+2021-01-09 16:02:15,588, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-01-09 16:02:15,911, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 565
+2021-01-09 16:02:15,912, DEBUG, telegram.bot, {'message_id': 173, 'date': 1610190135, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'У вас проверили работу "LoguntsovAE__api_sp1_bot.zip"!\n\nЗадание находится на проверке.', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
+2021-01-09 16:02:15,912, DEBUG, telegram.bot, Exiting: send_message
+2021-01-09 16:02:15,912, INFO, root, Ботом отправленно сообщение о статусе домашки. Текст сообщения:"У вас проверили работу "LoguntsovAE__api_sp1_bot.zip"!
 
-2021-01-06 17:43:09,691, INFO, root, Бот был успешно создан
-2021-01-06 17:43:09,692, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 17:43:10,033, ERROR, root, Бот столкнулся с ошибкой: Отправлен запрос на https://praktikum.yandex.ru/api/user_api/homework_statuses/
-с текущим временем 0
-от имени(токен): AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA
-получена ошибка: 
-
-2021-01-06 17:43:21,354, INFO, root, Бот был успешно создан
-2021-01-06 17:43:21,354, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 17:43:21,643, ERROR, root, Бот столкнулся с ошибкой: type object 'RequestException' has no attribute 'response'
-2021-01-06 17:43:42,284, INFO, root, Бот был успешно создан
-2021-01-06 17:43:42,284, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 17:43:42,566, ERROR, root, Бот столкнулся с ошибкой: Отправлен запрос на https://praktikum.yandex.ru/api/user_api/homework_statuses/
-с текущим временем 0
-от имени(токен): AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA
-получена ошибка: <attribute 'args' of 'BaseException' objects>
-
-2021-01-06 17:43:50,705, INFO, root, Бот был успешно создан
-2021-01-06 17:43:50,705, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 17:43:51,013, ERROR, root, Бот столкнулся с ошибкой: 'getset_descriptor' object is not callable
-2021-01-06 17:44:31,952, INFO, root, Бот был успешно создан
-2021-01-06 17:44:31,952, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 17:44:32,276, ERROR, root, Бот столкнулся с ошибкой: type object 'RequestException' has no attribute 'request'
-2021-01-06 17:44:38,360, INFO, root, Бот был успешно создан
-2021-01-06 17:44:38,360, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 17:44:38,664, ERROR, root, Бот столкнулся с ошибкой: type object 'RequestException' has no attribute 'request'
-2021-01-06 17:49:38,763, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 17:49:39,090, ERROR, root, Бот столкнулся с ошибкой: type object 'RequestException' has no attribute 'request'
-2021-01-06 17:51:16,773, INFO, root, Бот был успешно создан
-2021-01-06 17:51:16,773, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 17:51:17,088, ERROR, root, Бот столкнулся с ошибкой: Отправлен запрос на https://praktikum.yandex.ru/api/user_api/homework_statuses/
-с текущим временем 0
-от имени(токен): AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA
-получена ошибка: <attribute 'args' of 'BaseException' objects>
-
-2021-01-06 17:54:07,491, INFO, root, Бот был успешно создан
-2021-01-06 17:54:07,491, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 17:54:07,933, ERROR, root, Бот столкнулся с ошибкой: Отправлен запрос на https://praktikum.yandex.ru/api/user_api/homework_statuses/
-с текущим временем 0
-от имени(токен): AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA
-получена ошибка: <member 'strerror' of 'OSError' objects>
-
-2021-01-06 17:54:33,039, INFO, root, Бот был успешно создан
-2021-01-06 17:54:33,039, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 17:54:33,374, ERROR, root, Бот столкнулся с ошибкой: Отправлен запрос на https://praktikum.yandex.ru/api/user_api/homework_statuses/
-с текущим временем 0
-от имени(токен): AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA
-получена ошибка: <function RequestException.__init__ at 0x7f9e5dc8bf70>
-
-2021-01-06 17:54:55,313, INFO, root, Бот был успешно создан
-2021-01-06 17:54:55,313, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 17:54:55,586, ERROR, root, Бот столкнулся с ошибкой: name 'self' is not defined
-2021-01-06 17:55:36,338, INFO, root, Бот был успешно создан
-2021-01-06 17:55:36,339, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 17:55:36,664, ERROR, root, Бот столкнулся с ошибкой: type object 'RequestException' has no attribute 'response'
-2021-01-06 17:55:53,198, INFO, root, Бот был успешно создан
-2021-01-06 17:55:53,198, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 17:55:53,540, ERROR, root, Бот столкнулся с ошибкой: Отправлен запрос на https://praktikum.yandex.ru/api/user_api/homework_statuses/
-с текущим временем 0
-от имени(токен): AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA
-получена ошибка: <member 'filename' of 'OSError' objects>
-
-2021-01-06 17:58:46,846, INFO, root, Бот был успешно создан
-2021-01-06 17:58:46,846, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 17:58:47,168, ERROR, root, Бот столкнулся с ошибкой: type object 'RequestException' has no attribute 'Message'
-2021-01-06 18:03:27,120, INFO, root, Бот был успешно создан
-2021-01-06 18:03:27,121, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 18:03:27,442, ERROR, root, Бот столкнулся с ошибкой: Отправлен запрос на https://praktikum.yandex.ru/api/user_api/homework_statuses/
-с текущим временем 0
-от имени(токен): AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA
-получена ошибка: <attribute '__context__' of 'BaseException' objects>
-
-2021-01-06 18:03:47,932, INFO, root, Бот был успешно создан
-2021-01-06 18:03:47,932, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 18:03:48,225, ERROR, root, Бот столкнулся с ошибкой: 'getset_descriptor' object is not callable
-2021-01-06 18:04:36,431, INFO, root, Бот был успешно создан
-2021-01-06 18:04:36,431, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 18:04:36,800, ERROR, root, Бот столкнулся с ошибкой: Отправлен запрос на https://praktikum.yandex.ru/api/user_api/homework_statuses/
-с текущим временем 0
-от имени(токен): AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA
-получена ошибка: <slot wrapper '__str__' of 'OSError' objects>
-
-2021-01-06 18:07:39,727, INFO, root, Бот был успешно создан
-2021-01-06 18:07:39,727, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 18:07:40,100, ERROR, root, Бот столкнулся с ошибкой: Отправлен запрос на https://praktikum.yandex.ru/api/user_api/homework_statuses/
-с текущим временем 0
-от имени(токен): AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA
-получена ошибка: {'__module__': 'requests.exceptions', '__doc__': 'There was an ambiguous exception that occurred while handling your\n    request.\n    ', '__init__': <function RequestException.__init__ at 0x7fac10069f70>, '__weakref__': <attribute '__weakref__' of 'RequestException' objects>}
-
-2021-01-06 18:08:06,356, INFO, root, Бот был успешно создан
-2021-01-06 18:08:06,357, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 18:08:06,686, ERROR, root, Бот столкнулся с ошибкой: Отправлен запрос на https://praktikum.yandex.ru/api/user_api/homework_statuses/
-с текущим временем 0
-от имени(токен): AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA
-получена ошибка: There was an ambiguous exception that occurred while handling your
-    request.
-    
-
-2021-01-06 18:09:41,965, INFO, root, Бот был успешно создан
-2021-01-06 18:09:41,965, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 18:09:42,277, ERROR, root, Бот столкнулся с ошибкой: Отправлен запрос на https://praktikum.yandex.ru/api/user_api/homework_statuses/
-с текущим временем 0
-от имени(токен): AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA
-получена ошибка: There was an ambiguous exception that occurred while handling your
-    request.
-    
-
-2021-01-06 18:14:42,375, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 18:14:42,731, ERROR, root, Бот столкнулся с ошибкой: Отправлен запрос на https://praktikum.yandex.ru/api/user_api/homework_statuses/
-с текущим временем 0
-от имени(токен): AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA
-получена ошибка: There was an ambiguous exception that occurred while handling your
-    request.
-    
-
-2021-01-06 18:15:15,139, INFO, root, Бот был успешно создан
-2021-01-06 18:15:15,139, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 18:15:15,424, ERROR, root, Бот столкнулся с ошибкой: type object 'RequestException' has no attribute '__annotations__'
-2021-01-06 18:15:37,979, INFO, root, Бот был успешно создан
-2021-01-06 18:15:37,979, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 18:15:38,293, ERROR, root, Бот столкнулся с ошибкой: Отправлен запрос на https://praktikum.yandex.ru/api/user_api/homework_statuses/
-с текущим временем 0
-от имени(токен): AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA
-получена ошибка: requests.exceptions
-
-2021-01-06 18:16:06,463, INFO, root, Бот был успешно создан
-2021-01-06 18:16:06,463, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 18:16:06,802, ERROR, root, Бот столкнулся с ошибкой: type object 'RequestException' has no attribute 'response'
-2021-01-06 18:16:19,958, INFO, root, Бот был успешно создан
-2021-01-06 18:16:19,958, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 18:16:20,536, ERROR, root, Бот столкнулся с ошибкой: Отправлен запрос на https://praktikum.yandex.ru/api/user_api/homework_statuses/
-с текущим временем 0
-от имени(токен): AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA
-получена ошибка: <function RequestException.__init__ at 0x7f37afcacf70>
-
-2021-01-06 18:16:40,633, INFO, root, Бот был успешно создан
-2021-01-06 18:16:40,633, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 18:16:40,941, ERROR, root, Бот столкнулся с ошибкой: type object 'RequestException' has no attribute '__slots__'
-2021-01-06 18:16:58,097, INFO, root, Бот был успешно создан
-2021-01-06 18:16:58,097, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 18:16:58,414, ERROR, root, Бот столкнулся с ошибкой: Отправлен запрос на https://praktikum.yandex.ru/api/user_api/homework_statuses/
-с текущим временем 0
-от имени(токен): AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA
-получена ошибка: <slot wrapper '__str__' of 'OSError' objects>
-
-2021-01-06 18:17:18,888, INFO, root, Бот был успешно создан
-2021-01-06 18:17:18,888, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 18:17:19,252, ERROR, root, Бот столкнулся с ошибкой: __init__() missing 1 required positional argument: 'self'
-2021-01-06 18:17:45,435, INFO, root, Бот был успешно создан
-2021-01-06 18:17:45,436, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 18:17:45,975, ERROR, root, Бот столкнулся с ошибкой: super(type, obj): obj must be an instance or subtype of type
-2021-01-06 18:18:55,384, INFO, root, Бот был успешно создан
-2021-01-06 18:18:55,385, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 18:18:55,761, ERROR, root, Бот столкнулся с ошибкой: 'str' object has no attribute 'response'
-2021-01-06 18:19:16,223, INFO, root, Бот был успешно создан
-2021-01-06 18:19:16,223, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 18:19:16,564, ERROR, root, Бот столкнулся с ошибкой: 'str' object has no attribute 'response'
-2021-01-06 18:19:32,357, INFO, root, Бот был успешно создан
-2021-01-06 18:19:32,358, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 18:19:32,678, ERROR, root, Бот столкнулся с ошибкой: type object 'RequestException' has no attribute '__slots__'
-2021-01-06 18:20:06,106, INFO, root, Бот был успешно создан
-2021-01-06 18:20:06,106, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 18:20:06,439, ERROR, root, Бот столкнулся с ошибкой: Отправлен запрос на https://praktikum.yandex.ru/api/user_api/homework_statuses/
-с текущим временем 0
-от имени(токен): AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA
-получена ошибка: <method '__dir__' of 'object' objects>
-
-2021-01-06 18:20:21,461, INFO, root, Бот был успешно создан
-2021-01-06 18:20:21,461, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 18:20:21,766, ERROR, root, Бот столкнулся с ошибкой: Отправлен запрос на https://praktikum.yandex.ru/api/user_api/homework_statuses/
-с текущим временем 0
-от имени(токен): AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA
-получена ошибка: {'__module__': 'requests.exceptions', '__doc__': 'There was an ambiguous exception that occurred while handling your\n    request.\n    ', '__init__': <function RequestException.__init__ at 0x7f062cd00f70>, '__weakref__': <attribute '__weakref__' of 'RequestException' objects>}
-
-2021-01-06 18:21:13,949, INFO, root, Бот был успешно создан
-2021-01-06 18:21:13,949, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 18:21:14,277, ERROR, root, Бот столкнулся с ошибкой: Отправлен запрос на https://praktikum.yandex.ru/api/user_api/homework_statuses/
-с текущим временем 0
-от имени(токен): AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA
-получена ошибка: There was an ambiguous exception that occurred while handling your
-    request.
-    
-
-2021-01-06 18:21:44,813, INFO, root, Бот был успешно создан
-2021-01-06 18:21:44,816, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 18:21:45,137, ERROR, root, Бот столкнулся с ошибкой: Отправлен запрос на https://praktikum.yandex.ru/api/user_api/homework_statuses/
-с текущим временем 0
-от имени(токен): AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA
-получена ошибка: <member 'strerror' of 'OSError' objects>
-
-2021-01-06 18:22:41,753, INFO, root, Бот был успешно создан
-2021-01-06 18:22:41,753, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 18:22:42,088, ERROR, root, Бот столкнулся с ошибкой: 'member_descriptor' object is not callable
-2021-01-06 18:23:22,878, INFO, root, Бот был успешно создан
-2021-01-06 18:23:22,879, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 18:23:23,170, ERROR, root, Бот столкнулся с ошибкой: Отправлен запрос на https://praktikum.yandex.ru/api/user_api/homework_statuses/
-с текущим временем 0
-от имени(токен): AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA
-получена ошибка: There was an ambiguous exception that occurred while handling your
-    request.
-    
-
-2021-01-06 18:25:05,508, INFO, root, Бот был успешно создан
-2021-01-06 18:25:05,508, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 18:25:05,901, ERROR, root, Бот столкнулся с ошибкой: name 'bot_client' is not defined
-2021-01-06 18:30:05,999, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 18:30:06,333, ERROR, root, Бот столкнулся с ошибкой: name 'bot_client' is not defined
-2021-01-06 18:35:06,413, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 18:35:06,772, ERROR, root, Бот столкнулся с ошибкой: name 'bot_client' is not defined
-2021-01-06 18:40:06,860, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 18:40:07,211, ERROR, root, Бот столкнулся с ошибкой: name 'bot_client' is not defined
-2021-01-06 18:45:07,311, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 18:45:07,662, ERROR, root, Бот столкнулся с ошибкой: name 'bot_client' is not defined
-2021-01-06 18:50:07,759, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 18:50:08,135, ERROR, root, Бот столкнулся с ошибкой: name 'bot_client' is not defined
-2021-01-06 18:55:08,235, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 18:55:08,539, ERROR, root, Бот столкнулся с ошибкой: name 'bot_client' is not defined
-2021-01-06 19:00:08,639, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 19:00:09,007, ERROR, root, Бот столкнулся с ошибкой: name 'bot_client' is not defined
-2021-01-06 19:05:09,051, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 19:05:09,371, ERROR, root, Бот столкнулся с ошибкой: name 'bot_client' is not defined
-2021-01-06 19:10:09,471, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 19:10:09,834, ERROR, root, Бот столкнулся с ошибкой: name 'bot_client' is not defined
-2021-01-06 19:15:09,890, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 19:15:10,225, ERROR, root, Бот столкнулся с ошибкой: name 'bot_client' is not defined
-2021-01-06 19:20:10,325, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 19:20:10,624, ERROR, root, Бот столкнулся с ошибкой: name 'bot_client' is not defined
-2021-01-06 19:25:10,723, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 19:25:11,097, ERROR, root, Бот столкнулся с ошибкой: name 'bot_client' is not defined
-2021-01-06 19:30:11,198, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 19:30:11,533, ERROR, root, Бот столкнулся с ошибкой: name 'bot_client' is not defined
-2021-01-06 19:35:11,631, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 19:35:11,981, ERROR, root, Бот столкнулся с ошибкой: name 'bot_client' is not defined
-2021-01-06 19:40:12,079, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 19:40:12,404, ERROR, root, Бот столкнулся с ошибкой: name 'bot_client' is not defined
-2021-01-06 19:50:46,239, INFO, root, Бот был успешно создан
-2021-01-06 19:50:46,239, INFO, root, Отправлен запрос для проверки домашки
-2021-01-06 19:50:46,599, DEBUG, telegram.bot, Entering: send_message
-2021-01-06 19:50:46,600, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-06 19:50:46,907, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 591
-2021-01-06 19:50:46,907, DEBUG, telegram.bot, {'message_id': 107, 'date': 1609944646, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'У вас проверили работу "LoguntsovAE__api_sp1_bot.zip"!\n\nК сожалению в работе нашлись ошибки.', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-06 19:50:46,908, DEBUG, telegram.bot, Exiting: send_message
-2021-01-08 22:23:06,456, DEBUG, root, Бот был успешно создан
-2021-01-08 22:23:06,456, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 22:23:06,802, ERROR, root, Бот столкнулся с ошибкой: Ни один из возможных статусов не обнаружен
-2021-01-08 22:23:06,803, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-08 22:23:06,803, DEBUG, telegram.bot, Entering: send_message
-2021-01-08 22:23:06,803, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-08 22:23:07,193, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 603
-2021-01-08 22:23:07,194, DEBUG, telegram.bot, {'message_id': 112, 'date': 1610126587, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'Бот столкнулся с ошибкой: Ни один из возможных статусов не обнаружен', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-08 22:23:07,194, DEBUG, telegram.bot, Exiting: send_message
-2021-01-08 22:43:11,034, DEBUG, root, Бот был успешно создан
-2021-01-08 22:43:11,034, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 22:43:11,361, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-08 22:43:11,361, DEBUG, telegram.bot, Entering: send_message
-2021-01-08 22:43:11,365, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-08 22:43:11,767, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 591
-2021-01-08 22:43:11,768, DEBUG, telegram.bot, {'message_id': 113, 'date': 1610127791, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'У вас проверили работу "LoguntsovAE__api_sp1_bot.zip"!\n\nК сожалению в работе нашлись ошибки.', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-08 22:43:11,769, DEBUG, telegram.bot, Exiting: send_message
-2021-01-08 22:44:42,653, DEBUG, root, Бот был успешно создан
-2021-01-08 22:44:42,653, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 22:44:42,965, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-08 22:44:42,965, DEBUG, telegram.bot, Entering: send_message
-2021-01-08 22:44:42,966, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-08 22:44:43,275, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 602
-2021-01-08 22:44:43,276, DEBUG, telegram.bot, {'message_id': 114, 'date': 1610127883, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'Обновился статус работы "LoguntsovAE__api_sp1_bot.zip"!\n\nК сожалению в работе нашлись ошибки.', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-08 22:44:43,277, DEBUG, telegram.bot, Exiting: send_message
-2021-01-08 22:45:59,254, DEBUG, root, Бот был успешно создан
-2021-01-08 22:45:59,254, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 22:45:59,640, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-08 22:45:59,640, DEBUG, telegram.bot, Entering: send_message
-2021-01-08 22:45:59,641, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-08 22:45:59,944, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 598
-2021-01-08 22:45:59,946, DEBUG, telegram.bot, {'message_id': 115, 'date': 1610127959, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'Обновился статус работы LoguntsovAE__api_sp1_bot.zip!\n\nК сожалению в работе нашлись ошибки.', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-08 22:45:59,947, DEBUG, telegram.bot, Exiting: send_message
-2021-01-08 22:49:37,534, DEBUG, root, Бот был успешно создан
-2021-01-08 22:49:37,534, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 22:49:37,836, ERROR, root, Бот столкнулся с ошибкой: Ни один из возможных статусов домашки не обнаруженполученный статус: status
-2021-01-08 22:49:37,837, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-08 22:49:37,837, DEBUG, telegram.bot, Entering: send_message
-2021-01-08 22:49:37,837, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-08 22:49:38,141, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 751
-2021-01-08 22:49:38,142, DEBUG, telegram.bot, {'message_id': 116, 'date': 1610128178, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'Бот столкнулся с ошибкой: Ни один из возможных статусов домашки не обнаруженполученный статус: status', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-08 22:49:38,142, DEBUG, telegram.bot, Exiting: send_message
-2021-01-08 22:50:06,394, DEBUG, root, Бот был успешно создан
-2021-01-08 22:50:06,394, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 22:50:06,707, ERROR, root, Бот столкнулся с ошибкой: Ни один из возможных статусов домашки не обнаружен!полученный статус: "status"
-2021-01-08 22:50:06,707, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-08 22:50:06,707, DEBUG, telegram.bot, Entering: send_message
-2021-01-08 22:50:06,708, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-08 22:50:07,131, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 756
-2021-01-08 22:50:07,131, DEBUG, telegram.bot, {'message_id': 117, 'date': 1610128207, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'Бот столкнулся с ошибкой: Ни один из возможных статусов домашки не обнаружен!полученный статус: "status"', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-08 22:50:07,132, DEBUG, telegram.bot, Exiting: send_message
-2021-01-08 22:50:20,763, DEBUG, root, Бот был успешно создан
-2021-01-08 22:50:20,763, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 22:50:21,040, ERROR, root, Бот столкнулся с ошибкой: Ни один из возможных статусов домашки не обнаружен! Полученный статус: "status"
-2021-01-08 22:50:21,040, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-08 22:50:21,040, DEBUG, telegram.bot, Entering: send_message
-2021-01-08 22:50:21,041, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-08 22:50:21,360, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 757
-2021-01-08 22:50:21,361, DEBUG, telegram.bot, {'message_id': 118, 'date': 1610128221, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'Бот столкнулся с ошибкой: Ни один из возможных статусов домашки не обнаружен! Полученный статус: "status"', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-08 22:50:21,364, DEBUG, telegram.bot, Exiting: send_message
-2021-01-08 22:50:52,451, DEBUG, root, Бот был успешно создан
-2021-01-08 22:50:52,451, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 22:50:52,824, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-08 22:50:52,824, DEBUG, telegram.bot, Entering: send_message
-2021-01-08 22:50:52,825, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-08 22:50:53,135, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 598
-2021-01-08 22:50:53,136, DEBUG, telegram.bot, {'message_id': 119, 'date': 1610128253, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'Обновился статус работы LoguntsovAE__api_sp1_bot.zip!\n\nК сожалению в работе нашлись ошибки.', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-08 22:50:53,136, DEBUG, telegram.bot, Exiting: send_message
-2021-01-08 22:53:58,608, DEBUG, root, Бот был успешно создан
-2021-01-08 22:53:58,608, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 22:53:58,936, ERROR, root, Бот столкнулся с ошибкой: name 'error' is not defined
-2021-01-08 22:53:58,937, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-08 22:53:58,937, DEBUG, telegram.bot, Entering: send_message
-2021-01-08 22:53:58,938, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-08 22:53:59,273, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 408
-2021-01-08 22:53:59,273, DEBUG, telegram.bot, {'message_id': 120, 'date': 1610128439, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': "Бот столкнулся с ошибкой: name 'error' is not defined", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-08 22:53:59,274, DEBUG, telegram.bot, Exiting: send_message
-2021-01-08 22:54:19,042, DEBUG, root, Бот был успешно создан
-2021-01-08 22:54:19,042, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 22:54:19,323, ERROR, root, Бот столкнулся с ошибкой: 'url_api_praktikum'
-2021-01-08 22:54:19,324, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-08 22:54:19,324, DEBUG, telegram.bot, Entering: send_message
-2021-01-08 22:54:19,324, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-08 22:54:19,733, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 400
-2021-01-08 22:54:19,734, DEBUG, telegram.bot, {'message_id': 121, 'date': 1610128459, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': "Бот столкнулся с ошибкой: 'url_api_praktikum'", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-08 22:54:19,734, DEBUG, telegram.bot, Exiting: send_message
-2021-01-08 22:54:31,653, DEBUG, root, Бот был успешно создан
-2021-01-08 22:54:31,653, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 22:54:31,965, ERROR, root, Бот столкнулся с ошибкой: 'url_api_praktikum'
-2021-01-08 22:54:31,965, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-08 22:54:31,965, DEBUG, telegram.bot, Entering: send_message
-2021-01-08 22:54:31,966, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-08 22:54:32,237, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 400
-2021-01-08 22:54:32,238, DEBUG, telegram.bot, {'message_id': 122, 'date': 1610128472, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': "Бот столкнулся с ошибкой: 'url_api_praktikum'", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-08 22:54:32,238, DEBUG, telegram.bot, Exiting: send_message
-2021-01-08 22:59:32,337, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 22:59:32,647, ERROR, root, Бот столкнулся с ошибкой: 'url_api_praktikum'
-2021-01-08 22:59:32,647, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-08 22:59:32,647, DEBUG, telegram.bot, Entering: send_message
-2021-01-08 22:59:32,765, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 400
-2021-01-08 22:59:32,766, DEBUG, telegram.bot, {'message_id': 123, 'date': 1610128772, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': "Бот столкнулся с ошибкой: 'url_api_praktikum'", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-08 22:59:32,766, DEBUG, telegram.bot, Exiting: send_message
-2021-01-08 23:04:32,863, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 23:04:33,212, ERROR, root, Бот столкнулся с ошибкой: 'url_api_praktikum'
-2021-01-08 23:04:33,212, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-08 23:04:33,212, DEBUG, telegram.bot, Entering: send_message
-2021-01-08 23:04:33,343, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 400
-2021-01-08 23:04:33,344, DEBUG, telegram.bot, {'message_id': 124, 'date': 1610129073, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': "Бот столкнулся с ошибкой: 'url_api_praktikum'", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-08 23:04:33,344, DEBUG, telegram.bot, Exiting: send_message
-2021-01-08 23:06:06,876, DEBUG, root, Бот был успешно создан
-2021-01-08 23:06:06,876, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 23:06:06,878, ERROR, root, Бот столкнулся с ошибкой: 'url_api_praktikum'
-2021-01-08 23:06:06,878, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-08 23:06:06,878, DEBUG, telegram.bot, Entering: send_message
-2021-01-08 23:06:06,879, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-08 23:06:07,195, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 400
-2021-01-08 23:06:07,195, DEBUG, telegram.bot, {'message_id': 125, 'date': 1610129167, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': "Бот столкнулся с ошибкой: 'url_api_praktikum'", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-08 23:06:07,195, DEBUG, telegram.bot, Exiting: send_message
-2021-01-08 23:07:15,062, DEBUG, root, Бот был успешно создан
-2021-01-08 23:07:15,062, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 23:07:15,064, ERROR, root, Бот столкнулся с ошибкой: 'url_api_praktikum'
-2021-01-08 23:07:15,064, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-08 23:07:15,065, DEBUG, telegram.bot, Entering: send_message
-2021-01-08 23:07:15,065, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-08 23:07:15,378, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 400
-2021-01-08 23:07:15,378, DEBUG, telegram.bot, {'message_id': 126, 'date': 1610129235, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': "Бот столкнулся с ошибкой: 'url_api_praktikum'", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-08 23:07:15,379, DEBUG, telegram.bot, Exiting: send_message
-2021-01-08 23:09:39,766, DEBUG, root, Бот был успешно создан
-2021-01-08 23:09:39,766, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 23:09:39,768, ERROR, root, Бот столкнулся с ошибкой: Отправлен запрос на https://praktikum.yandex.ru/api/user_api/homework_statuses/
-заголовок: {'Authorization': 'OAuth AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA'}
-с параметрами: {'from_date': 1610129379}
-получена ошибка: No connection adapters were found for "{'url': 'https://praktikum.yandex.ru/api/user_api/homework_statuses/', 'headers': {'Authorization': 'OAuth AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA'}, 'params': {'from_date': 1610129379}}"
-
-2021-01-08 23:09:39,768, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-08 23:09:39,768, DEBUG, telegram.bot, Entering: send_message
-2021-01-08 23:09:39,768, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-08 23:09:40,232, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 1180
-2021-01-08 23:09:40,233, DEBUG, telegram.bot, {'message_id': 127, 'date': 1610129380, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'Бот столкнулся с ошибкой: Отправлен запрос на https://praktikum.yandex.ru/api/user_api/homework_statuses/\nзаголовок: {\'Authorization\': \'OAuth AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA\'}\nс параметрами: {\'from_date\': 1610129379}\nполучена ошибка: No connection adapters were found for "{\'url\': \'https://praktikum.yandex.ru/api/user_api/homework_statuses/\', \'headers\': {\'Authorization\': \'OAuth AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA\'}, \'params\': {\'from_date\': 1610129379}}"', 'entities': [{'type': 'url', 'offset': 46, 'length': 59}, {'type': 'url', 'offset': 290, 'length': 59}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-08 23:09:40,234, DEBUG, telegram.bot, Exiting: send_message
-2021-01-08 23:12:48,440, DEBUG, root, Бот был успешно создан
-2021-01-08 23:12:48,440, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 23:12:48,443, ERROR, root, Бот столкнулся с ошибкой: Получена ошибка соединения: No connection adapters were found for "{'url': 'https://praktikum.yandex.ru/api/user_api/homework_statuses/', 'headers': {'Authorization': 'OAuth AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA'}, 'params': {'from_date': 1610129568}}"
-2021-01-08 23:12:48,443, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-08 23:12:48,443, DEBUG, telegram.bot, Entering: send_message
-2021-01-08 23:12:48,443, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-08 23:12:48,722, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 810
-2021-01-08 23:12:48,722, DEBUG, telegram.bot, {'message_id': 128, 'date': 1610129568, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'Бот столкнулся с ошибкой: Получена ошибка соединения: No connection adapters were found for "{\'url\': \'https://praktikum.yandex.ru/api/user_api/homework_statuses/\', \'headers\': {\'Authorization\': \'OAuth AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA\'}, \'params\': {\'from_date\': 1610129568}}"', 'entities': [{'type': 'url', 'offset': 102, 'length': 59}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-08 23:12:48,723, DEBUG, telegram.bot, Exiting: send_message
-2021-01-08 23:14:45,798, DEBUG, root, Бот был успешно создан
-2021-01-08 23:14:45,798, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 23:14:45,800, ERROR, root, Бот столкнулся с ошибкой: Получена ошибка соединения: No connection adapters were found for "{'url': 'https://praktikum.yandex.ru/api/user_api/homework_statuses/', 'params': {'from_date': 1610129685}, 'headers': {'Authorization': 'OAuth AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA'}}"
-2021-01-08 23:14:45,800, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-08 23:14:45,800, DEBUG, telegram.bot, Entering: send_message
-2021-01-08 23:14:45,801, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-08 23:14:46,107, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 810
-2021-01-08 23:14:46,107, DEBUG, telegram.bot, {'message_id': 129, 'date': 1610129686, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'Бот столкнулся с ошибкой: Получена ошибка соединения: No connection adapters were found for "{\'url\': \'https://praktikum.yandex.ru/api/user_api/homework_statuses/\', \'params\': {\'from_date\': 1610129685}, \'headers\': {\'Authorization\': \'OAuth AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA\'}}"', 'entities': [{'type': 'url', 'offset': 102, 'length': 59}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-08 23:14:46,108, DEBUG, telegram.bot, Exiting: send_message
-2021-01-08 23:15:11,993, DEBUG, root, Бот был успешно создан
-2021-01-08 23:15:11,993, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 23:15:11,995, ERROR, root, Бот столкнулся с ошибкой: Получена ошибка соединения: No connection adapters were found for "{'url': 'https://praktikum.yandex.ru/api/user_api/homework_statuses/', 'params': {'from_date': 1610129711}, 'headers': {'Authorization': 'OAuth AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA'}}"
-2021-01-08 23:15:11,996, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-08 23:15:11,996, DEBUG, telegram.bot, Entering: send_message
-2021-01-08 23:15:11,996, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-08 23:15:12,306, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 810
-2021-01-08 23:15:12,306, DEBUG, telegram.bot, {'message_id': 130, 'date': 1610129712, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'Бот столкнулся с ошибкой: Получена ошибка соединения: No connection adapters were found for "{\'url\': \'https://praktikum.yandex.ru/api/user_api/homework_statuses/\', \'params\': {\'from_date\': 1610129711}, \'headers\': {\'Authorization\': \'OAuth AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA\'}}"', 'entities': [{'type': 'url', 'offset': 102, 'length': 59}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-08 23:15:12,306, DEBUG, telegram.bot, Exiting: send_message
-2021-01-08 23:15:57,696, DEBUG, root, Бот был успешно создан
-2021-01-08 23:15:57,697, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 23:15:57,699, ERROR, root, Бот столкнулся с ошибкой: Cannot mix str and non-str arguments
-2021-01-08 23:15:57,699, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-08 23:15:57,699, DEBUG, telegram.bot, Entering: send_message
-2021-01-08 23:15:57,700, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-08 23:15:58,084, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 417
-2021-01-08 23:15:58,084, DEBUG, telegram.bot, {'message_id': 131, 'date': 1610129758, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'Бот столкнулся с ошибкой: Cannot mix str and non-str arguments', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-08 23:15:58,085, DEBUG, telegram.bot, Exiting: send_message
-2021-01-08 23:16:10,863, DEBUG, root, Бот был успешно создан
-2021-01-08 23:16:10,863, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 23:16:19,699, DEBUG, root, Бот был успешно создан
-2021-01-08 23:16:19,699, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 23:16:19,992, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-08 23:16:19,992, DEBUG, telegram.bot, Entering: send_message
-2021-01-08 23:16:19,993, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-08 23:16:20,315, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 598
-2021-01-08 23:16:20,315, DEBUG, telegram.bot, {'message_id': 132, 'date': 1610129780, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'Обновился статус работы LoguntsovAE__api_sp1_bot.zip!\n\nК сожалению в работе нашлись ошибки.', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-08 23:16:20,316, DEBUG, telegram.bot, Exiting: send_message
-2021-01-08 23:16:39,663, DEBUG, root, Бот был успешно создан
-2021-01-08 23:16:39,663, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 23:16:39,665, ERROR, root, Бот столкнулся с ошибкой: Получена ошибка соединения: No connection adapters were found for "{'url': 'https://praktikum.yandex.ru/api/user_api/homework_statuses/', 'params': {'from_date': 1610129799}, 'headers': {'Authorization': 'OAuth AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA'}}"
-2021-01-08 23:16:39,665, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-08 23:16:39,665, DEBUG, telegram.bot, Entering: send_message
-2021-01-08 23:16:39,665, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-08 23:16:39,952, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 810
-2021-01-08 23:16:39,953, DEBUG, telegram.bot, {'message_id': 133, 'date': 1610129799, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'Бот столкнулся с ошибкой: Получена ошибка соединения: No connection adapters were found for "{\'url\': \'https://praktikum.yandex.ru/api/user_api/homework_statuses/\', \'params\': {\'from_date\': 1610129799}, \'headers\': {\'Authorization\': \'OAuth AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA\'}}"', 'entities': [{'type': 'url', 'offset': 102, 'length': 59}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-08 23:16:39,953, DEBUG, telegram.bot, Exiting: send_message
-2021-01-08 23:16:46,809, DEBUG, root, Бот был успешно создан
-2021-01-08 23:16:46,809, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 23:16:54,548, DEBUG, root, Бот был успешно создан
-2021-01-08 23:16:54,549, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 23:16:54,881, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-08 23:16:54,881, DEBUG, telegram.bot, Entering: send_message
-2021-01-08 23:16:54,882, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-08 23:16:55,186, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 598
-2021-01-08 23:16:55,187, DEBUG, telegram.bot, {'message_id': 134, 'date': 1610129815, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'Обновился статус работы LoguntsovAE__api_sp1_bot.zip!\n\nК сожалению в работе нашлись ошибки.', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-08 23:16:55,187, DEBUG, telegram.bot, Exiting: send_message
-2021-01-08 23:18:44,742, DEBUG, root, Бот был успешно создан
-2021-01-08 23:18:44,742, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 23:19:17,607, DEBUG, root, Бот был успешно создан
-2021-01-08 23:19:17,607, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 23:19:37,896, DEBUG, root, Бот был успешно создан
-2021-01-08 23:19:37,896, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 23:19:44,540, DEBUG, root, Бот был успешно создан
-2021-01-08 23:19:44,540, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 23:19:44,811, ERROR, root, Бот столкнулся с ошибкой: 'Запрос домашней работы провалился'
-2021-01-08 23:19:44,812, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-08 23:19:44,812, DEBUG, telegram.bot, Entering: send_message
-2021-01-08 23:19:44,812, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-08 23:19:45,143, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 566
-2021-01-08 23:19:45,144, DEBUG, telegram.bot, {'message_id': 135, 'date': 1610129985, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': "Бот столкнулся с ошибкой: 'Запрос домашней работы провалился'", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-08 23:19:45,144, DEBUG, telegram.bot, Exiting: send_message
-2021-01-08 23:20:13,203, DEBUG, root, Бот был успешно создан
-2021-01-08 23:20:13,203, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 23:20:13,436, ERROR, root, Бот столкнулся с ошибкой: 'Запрос домашней работы провалился'
-2021-01-08 23:20:13,437, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-08 23:20:13,437, DEBUG, telegram.bot, Entering: send_message
-2021-01-08 23:20:13,437, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-08 23:20:13,704, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 566
-2021-01-08 23:20:13,705, DEBUG, telegram.bot, {'message_id': 136, 'date': 1610130013, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': "Бот столкнулся с ошибкой: 'Запрос домашней работы провалился'", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-08 23:20:13,705, DEBUG, telegram.bot, Exiting: send_message
-2021-01-08 23:20:36,979, DEBUG, root, Бот был успешно создан
-2021-01-08 23:20:36,979, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 23:20:37,220, ERROR, root, Бот столкнулся с ошибкой: 'Запрос домашней работы провалился из-за ошибки: []'
-2021-01-08 23:20:37,220, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-08 23:20:37,220, DEBUG, telegram.bot, Entering: send_message
-2021-01-08 23:20:37,220, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-08 23:20:37,509, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 633
-2021-01-08 23:20:37,509, DEBUG, telegram.bot, {'message_id': 137, 'date': 1610130037, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': "Бот столкнулся с ошибкой: 'Запрос домашней работы провалился из-за ошибки: []'", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-08 23:20:37,510, DEBUG, telegram.bot, Exiting: send_message
-2021-01-08 23:21:06,497, DEBUG, root, Бот был успешно создан
-2021-01-08 23:21:06,497, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 23:21:06,694, ERROR, root, Бот столкнулся с ошибкой: local variable 'error' referenced before assignment
-2021-01-08 23:21:06,694, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-08 23:21:06,694, DEBUG, telegram.bot, Entering: send_message
-2021-01-08 23:21:06,694, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-08 23:21:06,971, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 432
-2021-01-08 23:21:06,972, DEBUG, telegram.bot, {'message_id': 138, 'date': 1610130066, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': "Бот столкнулся с ошибкой: local variable 'error' referenced before assignment", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-08 23:21:06,972, DEBUG, telegram.bot, Exiting: send_message
-2021-01-08 23:21:57,936, DEBUG, root, Бот был успешно создан
-2021-01-08 23:21:57,936, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 23:21:58,202, ERROR, root, Бот столкнулся с ошибкой: 'Запрос домашней работы провалился из-за ошибки: []'
-2021-01-08 23:21:58,203, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-08 23:21:58,203, DEBUG, telegram.bot, Entering: send_message
-2021-01-08 23:21:58,203, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-08 23:21:58,510, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 633
-2021-01-08 23:21:58,511, DEBUG, telegram.bot, {'message_id': 139, 'date': 1610130118, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': "Бот столкнулся с ошибкой: 'Запрос домашней работы провалился из-за ошибки: []'", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-08 23:21:58,511, DEBUG, telegram.bot, Exiting: send_message
-2021-01-08 23:22:09,799, DEBUG, root, Бот был успешно создан
-2021-01-08 23:22:09,799, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 23:22:09,801, ERROR, root, Бот столкнулся с ошибкой: Получена ошибка соединения: No connection adapters were found for "{'url': 'https://praktikum.yandex.ru/api/user_api/homework_statuses/', 'params': {'from_date': 1610130129}, 'headers': {'Authorization': 'OAuth AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA'}}"
-2021-01-08 23:22:09,802, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-08 23:22:09,802, DEBUG, telegram.bot, Entering: send_message
-2021-01-08 23:22:09,802, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-08 23:22:10,092, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 810
-2021-01-08 23:22:10,093, DEBUG, telegram.bot, {'message_id': 140, 'date': 1610130130, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'Бот столкнулся с ошибкой: Получена ошибка соединения: No connection adapters were found for "{\'url\': \'https://praktikum.yandex.ru/api/user_api/homework_statuses/\', \'params\': {\'from_date\': 1610130129}, \'headers\': {\'Authorization\': \'OAuth AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA\'}}"', 'entities': [{'type': 'url', 'offset': 102, 'length': 59}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-08 23:22:10,093, DEBUG, telegram.bot, Exiting: send_message
-2021-01-08 23:26:15,414, DEBUG, root, Бот был успешно создан
-2021-01-08 23:26:15,414, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 23:26:15,677, ERROR, root, Бот столкнулся с ошибкой: 'Запрос домашней работы провалился из-за ошибки: []'
-2021-01-08 23:26:15,678, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-08 23:26:15,678, DEBUG, telegram.bot, Entering: send_message
-2021-01-08 23:26:15,679, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-08 23:26:16,031, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 633
-2021-01-08 23:26:16,031, DEBUG, telegram.bot, {'message_id': 141, 'date': 1610130375, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': "Бот столкнулся с ошибкой: 'Запрос домашней работы провалился из-за ошибки: []'", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-08 23:26:16,032, DEBUG, telegram.bot, Exiting: send_message
-2021-01-08 23:26:31,238, DEBUG, root, Бот был успешно создан
-2021-01-08 23:26:31,239, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 23:26:42,037, DEBUG, root, Бот был успешно создан
-2021-01-08 23:26:42,037, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 23:26:55,325, DEBUG, root, Бот был успешно создан
-2021-01-08 23:26:55,325, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 23:26:55,326, ERROR, root, Бот столкнулся с ошибкой: Получена ошибка соединения: No connection adapters were found for "{'url': 'https://praktikum.yandex.ru/api/user_api/homework_statuses/', 'params': {'from_date': 1610130415}, 'headers': {'Authorization': 'OAuth AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA'}}"
-2021-01-08 23:26:55,326, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-08 23:26:55,326, DEBUG, telegram.bot, Entering: send_message
-2021-01-08 23:26:55,327, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-08 23:26:55,620, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 810
-2021-01-08 23:26:55,622, DEBUG, telegram.bot, {'message_id': 142, 'date': 1610130415, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'Бот столкнулся с ошибкой: Получена ошибка соединения: No connection adapters were found for "{\'url\': \'https://praktikum.yandex.ru/api/user_api/homework_statuses/\', \'params\': {\'from_date\': 1610130415}, \'headers\': {\'Authorization\': \'OAuth AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA\'}}"', 'entities': [{'type': 'url', 'offset': 102, 'length': 59}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-08 23:26:55,622, DEBUG, telegram.bot, Exiting: send_message
-2021-01-08 23:32:44,271, DEBUG, root, Бот был успешно создан
-2021-01-08 23:32:44,271, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 23:32:44,273, ERROR, root, Бот столкнулся с ошибкой: Получена ошибка соединения: InvalidSchema('No connection adapters were found for "{\'url\': \'https://praktikum.yandex.ru/api/user_api/homework_statuses/\', \'params\': {\'from_date\': 1610130764}, \'headers\': {\'Authorization\': \'OAuth AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA\'}}"')
-2021-01-08 23:32:44,273, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-08 23:32:44,273, DEBUG, telegram.bot, Entering: send_message
-2021-01-08 23:32:44,273, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-08 23:32:44,588, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 855
-2021-01-08 23:32:44,590, DEBUG, telegram.bot, {'message_id': 143, 'date': 1610130764, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'Бот столкнулся с ошибкой: Получена ошибка соединения: InvalidSchema(\'No connection adapters were found for "{\\\'url\\\': \\\'https://praktikum.yandex.ru/api/user_api/homework_statuses/\\\', \\\'params\\\': {\\\'from_date\\\': 1610130764}, \\\'headers\\\': {\\\'Authorization\\\': \\\'OAuth AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA\\\'}}"\')', 'entities': [{'type': 'url', 'offset': 120, 'length': 60}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-08 23:32:44,590, DEBUG, telegram.bot, Exiting: send_message
-2021-01-08 23:33:09,759, DEBUG, root, Бот был успешно создан
-2021-01-08 23:33:09,759, INFO, root, Отправлен запрос для проверки домашки
-2021-01-08 23:33:09,761, ERROR, root, Бот столкнулся с ошибкой: Получена ошибка соединения: No connection adapters were found for "{'url': 'https://praktikum.yandex.ru/api/user_api/homework_statuses/', 'params': {'from_date': 1610130789}, 'headers': {'Authorization': 'OAuth AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA'}}"
-2021-01-08 23:33:09,761, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-08 23:33:09,761, DEBUG, telegram.bot, Entering: send_message
-2021-01-08 23:33:09,762, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-08 23:33:10,099, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 810
-2021-01-08 23:33:10,101, DEBUG, telegram.bot, {'message_id': 144, 'date': 1610130790, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'Бот столкнулся с ошибкой: Получена ошибка соединения: No connection adapters were found for "{\'url\': \'https://praktikum.yandex.ru/api/user_api/homework_statuses/\', \'params\': {\'from_date\': 1610130789}, \'headers\': {\'Authorization\': \'OAuth AgAAAAAoc5wqAAYckc67wQ4UHEheuLDz0_25rEA\'}}"', 'entities': [{'type': 'url', 'offset': 102, 'length': 59}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-08 23:33:10,101, DEBUG, telegram.bot, Exiting: send_message
-2021-01-08 23:33:24,129, DEBUG, root, Бот был успешно создан
-2021-01-08 23:33:24,129, INFO, root, Отправлен запрос для проверки домашки
-2021-01-09 00:22:11,968, DEBUG, root, Бот был успешно создан
-2021-01-09 00:22:11,968, INFO, root, Отправлен запрос для проверки домашки
-2021-01-09 00:22:11,968, ERROR, root, Бот столкнулся с ошибкой: Получена ошибка соединения: testing
-2021-01-09 00:22:11,968, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-09 00:22:11,969, DEBUG, telegram.bot, Entering: send_message
-2021-01-09 00:22:11,969, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-09 00:22:12,261, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 536
-2021-01-09 00:22:12,262, DEBUG, telegram.bot, {'message_id': 145, 'date': 1610133732, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'Бот столкнулся с ошибкой: Получена ошибка соединения: testing', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-09 00:22:12,262, DEBUG, telegram.bot, Exiting: send_message
-2021-01-09 00:24:22,417, DEBUG, root, Бот был успешно создан
-2021-01-09 00:24:22,417, INFO, root, Отправлен запрос для проверки домашки
-2021-01-09 00:24:22,417, ERROR, root, Бот столкнулся с ошибкой: Получена ошибка соединения: testing
-2021-01-09 00:24:22,417, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-09 00:24:22,417, DEBUG, telegram.bot, Entering: send_message
-2021-01-09 00:24:22,418, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-09 00:24:22,726, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 536
-2021-01-09 00:24:22,726, DEBUG, telegram.bot, {'message_id': 146, 'date': 1610133862, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'Бот столкнулся с ошибкой: Получена ошибка соединения: testing', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-09 00:24:22,727, DEBUG, telegram.bot, Exiting: send_message
-2021-01-09 00:24:53,997, DEBUG, root, Бот был успешно создан
-2021-01-09 00:24:53,997, INFO, root, Отправлен запрос для проверки домашки
-2021-01-09 00:26:27,061, DEBUG, root, Бот был успешно создан
-2021-01-09 00:26:27,061, INFO, root, Отправлен запрос для проверки домашки
-2021-01-09 00:26:37,114, DEBUG, root, Бот был успешно создан
-2021-01-09 00:26:37,115, INFO, root, Отправлен запрос для проверки домашки
-2021-01-09 00:26:37,406, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-09 00:26:37,407, DEBUG, telegram.bot, Entering: send_message
-2021-01-09 00:26:37,407, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-09 00:26:37,686, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 591
-2021-01-09 00:26:37,686, DEBUG, telegram.bot, {'message_id': 147, 'date': 1610133997, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'У вас проверили работу "LoguntsovAE__api_sp1_bot.zip"!\n\nК сожалению в работе нашлись ошибки.', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-09 00:26:37,687, DEBUG, telegram.bot, Exiting: send_message
-2021-01-09 00:26:50,141, DEBUG, root, Бот был успешно создан
-2021-01-09 00:26:50,141, INFO, root, Отправлен запрос для проверки домашки
-2021-01-09 00:26:50,444, ERROR, root, Бот столкнулся с ошибкой: Ни один из возможных статусов домашки не обнаружен! Полученный статус: "status"
-2021-01-09 00:26:50,444, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-09 00:26:50,444, DEBUG, telegram.bot, Entering: send_message
-2021-01-09 00:26:50,444, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-09 00:26:50,729, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 757
-2021-01-09 00:26:50,729, DEBUG, telegram.bot, {'message_id': 148, 'date': 1610134010, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'Бот столкнулся с ошибкой: Ни один из возможных статусов домашки не обнаружен! Полученный статус: "status"', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-09 00:26:50,730, DEBUG, telegram.bot, Exiting: send_message
-2021-01-09 00:28:07,181, DEBUG, root, Бот был успешно создан
-2021-01-09 00:28:07,181, INFO, root, Отправлен запрос для проверки домашки
-2021-01-09 00:28:07,404, ERROR, root, Бот столкнулся с ошибкой: 'Запрос домашней работы провалился из-за ошибки: []'
-2021-01-09 00:28:07,405, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-09 00:28:07,405, DEBUG, telegram.bot, Entering: send_message
-2021-01-09 00:28:07,405, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-09 00:28:07,705, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 633
-2021-01-09 00:28:07,706, DEBUG, telegram.bot, {'message_id': 149, 'date': 1610134087, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': "Бот столкнулся с ошибкой: 'Запрос домашней работы провалился из-за ошибки: []'", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-09 00:28:07,706, DEBUG, telegram.bot, Exiting: send_message
-2021-01-09 00:28:26,765, DEBUG, root, Бот был успешно создан
-2021-01-09 00:28:26,765, INFO, root, Отправлен запрос для проверки домашки
-2021-01-09 00:28:27,000, ERROR, root, Бот столкнулся с ошибкой: "Запрос домашней работы провалился из-за ошибки: ['asd']"
-2021-01-09 00:28:27,000, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-09 00:28:27,000, DEBUG, telegram.bot, Entering: send_message
-2021-01-09 00:28:27,001, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-09 00:28:27,296, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 640
-2021-01-09 00:28:27,297, DEBUG, telegram.bot, {'message_id': 150, 'date': 1610134107, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'Бот столкнулся с ошибкой: "Запрос домашней работы провалился из-за ошибки: [\'asd\']"', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-09 00:28:27,297, DEBUG, telegram.bot, Exiting: send_message
-2021-01-09 00:29:13,929, DEBUG, root, Бот был успешно создан
-2021-01-09 00:29:13,930, INFO, root, Отправлен запрос для проверки домашки
-2021-01-09 00:29:14,191, ERROR, root, Бот столкнулся с ошибкой: "Запрос домашней работы провалился из-за ошибки: ['asd']"
-2021-01-09 00:29:14,191, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-09 00:29:14,191, DEBUG, telegram.bot, Entering: send_message
-2021-01-09 00:29:14,192, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-09 00:29:14,487, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 640
-2021-01-09 00:29:14,487, DEBUG, telegram.bot, {'message_id': 151, 'date': 1610134154, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'Бот столкнулся с ошибкой: "Запрос домашней работы провалился из-за ошибки: [\'asd\']"', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-09 00:29:14,488, DEBUG, telegram.bot, Exiting: send_message
-2021-01-09 00:30:15,223, DEBUG, root, Бот был успешно создан
-2021-01-09 00:30:15,223, INFO, root, Отправлен запрос для проверки домашки
-2021-01-09 00:30:24,452, DEBUG, root, Бот был успешно создан
-2021-01-09 00:30:24,453, INFO, root, Отправлен запрос для проверки домашки
-2021-01-09 00:30:24,754, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-09 00:30:24,754, DEBUG, telegram.bot, Entering: send_message
-2021-01-09 00:30:24,755, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-09 00:30:25,094, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 591
-2021-01-09 00:30:25,095, DEBUG, telegram.bot, {'message_id': 152, 'date': 1610134225, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'У вас проверили работу "LoguntsovAE__api_sp1_bot.zip"!\n\nК сожалению в работе нашлись ошибки.', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-09 00:30:25,095, DEBUG, telegram.bot, Exiting: send_message
-2021-01-09 00:30:44,202, DEBUG, root, Бот был успешно создан
-2021-01-09 00:30:44,202, INFO, root, Отправлен запрос для проверки домашки
-2021-01-09 00:30:44,501, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-09 00:30:44,501, DEBUG, telegram.bot, Entering: send_message
-2021-01-09 00:30:44,501, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-09 00:30:44,775, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 591
-2021-01-09 00:30:44,776, DEBUG, telegram.bot, {'message_id': 153, 'date': 1610134244, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'У вас проверили работу "LoguntsovAE__api_sp1_bot.zip"!\n\nК сожалению в работе нашлись ошибки.', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-09 00:30:44,776, DEBUG, telegram.bot, Exiting: send_message
-2021-01-09 00:31:47,022, DEBUG, root, Бот был успешно создан
-2021-01-09 00:31:47,022, INFO, root, Отправлен запрос для проверки домашки
-2021-01-09 00:31:47,293, INFO, root, Ботом отправленно сообщение о статусе домашки
-2021-01-09 00:31:47,293, DEBUG, telegram.bot, Entering: send_message
-2021-01-09 00:31:47,293, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
-2021-01-09 00:31:47,578, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1415873638:AAFaNq5fitqj7HraQWi5MOqvfOrs4P-UvFA/sendMessage HTTP/1.1" 200 591
-2021-01-09 00:31:47,579, DEBUG, telegram.bot, {'message_id': 154, 'date': 1610134307, 'chat': {'id': 1081293835, 'type': 'private', 'first_name': 'Alexey', 'last_name': 'Loguntsov'}, 'text': 'У вас проверили работу "LoguntsovAE__api_sp1_bot.zip"!\n\nК сожалению в работе нашлись ошибки.', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1415873638, 'first_name': 'LoguntsovAE', 'is_bot': True, 'username': 'LoguntsovAE_bot'}}
-2021-01-09 00:31:47,579, DEBUG, telegram.bot, Exiting: send_message
+Задание находится на проверке."
